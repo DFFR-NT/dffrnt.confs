@@ -2,8 +2,8 @@
 // ----------------------------------------------------------------------------------------------
 // Handle Requires ------------------------------------------------------------------------------
 
-	const { ROOTD } = require('dffrnt.utils');
-	const pth = `${ROOTD}/config`;
+	const ROOTD = require('app-root-path');
+	const pth 	= `${ROOTD}/config`;
 
 	module.exports 	= {
 		Settings: 	require(`${pth}/settings.cfg`),

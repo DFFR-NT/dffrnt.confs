@@ -9,7 +9,7 @@
 	"homepage": "https://github.com/DFFR-NT/dffrnt.confs#readme",
 	"repository": {
 		"type": "git",
-    	"url": "https://github.com/DFFR-NT/dffrnt.confs"
+    	"url": "https://github.com/DFFR-NT/dffrnt.confs.git"
 	},
 	"bugs": {
 		"url": "https://github.com/DFFR-NT/dffrnt.confs/issues"

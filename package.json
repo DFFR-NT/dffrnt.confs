@@ -23,6 +23,6 @@
 		"npm": "<=5.6.0"
 	},
 	"dependencies": {
-		"dffrnt.utils": "DFFR-NT/dffrnt.utils#v1.5.1"
+		"dffrnt.utils": "DFFR-NT/dffrnt.utils#v1.5.2"
 	}
 }

@@ -2,6 +2,11 @@
 	"name": "dffrnt.confs",
 	"version": "1.5.2",
 	"description": "Initial default Configs used within the DFFRNT.API Framework.",
+	"keywords": [
+		"api",
+		"config",
+		"dffrnt"
+	],
 	"author": {
 		"name": "Arian Johnson",
 		"email": "arian.johnson@icloud.com"

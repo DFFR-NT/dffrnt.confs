@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.confs",
-	"version": "1.5.3",
+	"version": "1.5.4",
 	"description": "Initial default Configs used within the DFFRNT.API Framework.",
 	"keywords": [
 		"api",
@@ -9,9 +9,10 @@
 	],
 	"author": {
 		"name": "Arian Johnson",
-		"email": "arian.johnson@icloud.com"
+		"email": "arian.johnson@icloud.com",
+		"url": "https://github.com/LeShaunJ"
 	},
-	"homepage": "https://github.com/DFFR-NT/dffrnt.confs#readme",
+	"homepage": "https://dffrnt.ca",
 	"repository": {
 		"type": "git",
     	"url": "https://github.com/DFFR-NT/dffrnt.confs.git"
@@ -21,13 +22,7 @@
 	},
 	"main": "index.js",
 	"license": "MIT",
-	"cpu" : [ "x64" ],
-	"os" : [ "darwin", "linux", "Win32" ],
-	"engines" : { 
-		"node" : "<=8.9.4",
-		"npm": "<=5.6.0"
-	},
 	"dependencies": {
-		"dffrnt.utils": "1.5.3"
+		"dffrnt.utils": "1.5.4"
 	}
 }

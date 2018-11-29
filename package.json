@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.confs",
-	"version": "2.0.7",
+	"version": "2.0.8",
 	"description": "Initial default Configs used within the DFFRNT.API Framework.",
 	"keywords": [
 		"api",
@@ -23,6 +23,6 @@
 	"main": "index.js",
 	"license": "MIT",
 	"dependencies": {
-		"dffrnt.utils": "2.0.7"
+		"dffrnt.utils": "2.0.8"
 	}
 }

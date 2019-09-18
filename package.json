@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.confs",
-	"version": "2.5.0",
+	"version": "3.0.0",
 	"description": "Initial default Configs used within the DFFRNT.API Framework.",
 	"keywords": [
 		"api",
@@ -21,8 +21,9 @@
 		"url": "https://github.com/DFFR-NT/dffrnt.confs/issues"
 	},
 	"main": "index.js",
+	"engines" : { "node" : ">=8.94 <10.16.3" },
 	"license": "MIT",
 	"dependencies": {
-		"dffrnt.utils": "2.5.0"
+		"dffrnt.utils": "3.0.0"
 	}
 }

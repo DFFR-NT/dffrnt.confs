@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.confs",
-	"version": "3.0.4",
+	"version": "3.0.5",
 	"description": "Initial default Configs used within the DFFRNT.API Framework.",
 	"keywords": [
 		"api",
@@ -24,6 +24,6 @@
 	"engines" : { "node" : ">=8.94 <10.16.3" },
 	"license": "MIT",
 	"dependencies": {
-		"dffrnt.utils": "3.0.4"
+		"dffrnt.utils": "3.0.5"
 	}
 }

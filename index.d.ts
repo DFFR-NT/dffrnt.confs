@@ -481,6 +481,12 @@ declare global {
          */
         Main: CBProc; 
     };
+    /**
+     * An object of `Accessors` & `Methods` relevant to this Endpoint to use in Query-Functions.
+     */
+    export interface CLPointUtils { 
+        [utilName: string]: (...args) => any; 
+    };
 
 
     /**
@@ -1983,13 +1989,16 @@ declare global {
                 /** @hidden */ PUT?    : never;
                 /** @hidden */ DELETE? : never;
                 /** @hidden */ MID?    : never;
-
             };
             /**
              * A collection of `Request`-handlers for a `Base-Endpoint`. A `BaseEndpoint` 
              * represents a **Namespace** for any number of related `Endpoints`.
              */
             export abstract interface Base<T extends (RouteAU|RouteDB)> {
+                /**
+                 * An object of `Accessors` & `Methods` relevant to this Endpoint to use in Query-Functions.
+                 */
+                Utilities?: CLPointUtils;
                 /**
                  * Where each related `Endpoint` is defined.
                  */
@@ -2422,6 +2431,9 @@ declare global {
                  * ```javascript
                  * // "Auth" is the BaseEndpoint ("/auth")
                  * Auth: {
+                 *     Utilities: {
+                 *          checkEmail(address) { ... }
+                 *     },
                  *     Actions: {
                  *          // Resolves to "/auth/login"
                  *          Login:  new RouteAU({ ... }),
@@ -2459,6 +2471,9 @@ declare global {
                  * ```javascript
                  * // "User" is the BaseEndpoint ("/user")
                  * User: {
+                 *     Utilities: {
+                 *          toIDObj(ids) { ... }
+                 *     },
                  *     Actions: {
                  *          // Resolves to "/user/[0-9]+/settings"
                  *          Settings: new RouteDB({

@@ -13,7 +13,7 @@ import Immutable = require("immutable");
 /** @hidden */
 import Reflux = require("reflux");
 /** @hidden */
-import { LG, TLS, JSN, Imm, TZ, TYPE, Assign, UoN, CNAME } from "dffrnt.utils"
+import { LG, TLS, JSN, Imm, TZ, TYPE, Assign, UoN, CNAME, FOLDER } from "dffrnt.utils"
 /** @hidden */
 import { Errors, Help, Routes, Session, REST } from "dffrnt.route";
 
@@ -530,9 +530,9 @@ declare global {
              */
             export interface Folder {
                 /**
-                * The name of the `Folder` (_i.e: `./${folder}`_).
+                * The `FOLDER` instance.
                 */
-                Folder:  string;
+                Folder:  FOLDER;
                 /**
                 * The maximum time -- in seconds -- that the files served from this folder will be allowed to 
                 * be **cache** for.

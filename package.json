@@ -1,6 +1,6 @@
 {
 	"name": "dffrnt.confs",
-	"version": "4.0.4",
+	"version": "4.0.5",
 	"description": "Initial default Configs used within the DFFRNT.API Framework.",
 	"keywords": [
 		"api",
@@ -12,7 +12,7 @@
 		"email": "arian.johnson@icloud.com",
 		"url": "https://github.com/LeShaunJ"
 	},
-	"homepage": "https://dffrnt.ca",
+	"homepage": "https://dffr-nt.github.io/dffrnt.api",
 	"repository": {
 		"type": "git",
     	"url": "https://github.com/DFFR-NT/dffrnt.confs.git"
